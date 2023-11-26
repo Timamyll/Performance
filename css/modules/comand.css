@@ -1,0 +1,91 @@
+.comand__page {
+    background-image: url(../../images/case/noroot.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100vh;
+    box-shadow: inset 0 0 191px 107px #282a2d;
+}
+
+.comand__body {
+    margin-top: 150px;
+}
+.comand__title {
+    color: #f9f9f9;
+    font-size: 40px;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 900;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.comand__box {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.comand__text {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    max-width: 450px;
+}
+.comand__button {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: #9001f5;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    padding: 10px 25px;
+}
+.comand__button:hover {
+    background-color: #f9f9f9;
+    color: #9001f5;
+}
+
+
+@media (max-width: 745px) {
+    .comand__box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .comand__button {margin-top: 38px;}
+}
+
+@media (max-width: 448px) {
+    .comand__title {
+        font-size: 31px;
+    }
+    .comand__text {
+        font-size: 16px;
+
+    }
+    .comand__body {
+        margin-top: 0;    }
+
+    .comand__box {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width: 358px) {
+    .comand__page {
+        height: 80vh;
+        box-shadow: inset 0 0 265px 34px #282a2d;
+    }
+}

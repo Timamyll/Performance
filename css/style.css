@@ -1,0 +1,74 @@
+@import url(./modules/header.css);
+@import url(./modules/case.css);
+@import url(./modules/casetwo.css);
+@import url(./modules/comand.css);
+@import url(./modules/slider.css);
+@import url(./modules/case-tape.css);
+@import url(./modules/cart.css);
+@import url(./modules/services.css);
+@import url(./modules/visitcar.css);
+@import url(./modules/robota.css);
+@import url(./modules/about.css);
+@import url(./modules/footer.css);
+@import url(./modules/casepage/casepage.css);
+@import url(./aboutus/aboutus.css);
+@import url(./job/job.css);
+@import url(./job/looking.css);
+@import url(./blog/blog.css);
+@import url(./article/article.css);
+@import url(./servicsreclame/targetreclame.css);
+@import url(./shungit.css);
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+button {
+     background: none;
+     border: none;
+     padding: 0;
+}
+p {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    background: #f9f9f9;
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa',Arial,sans-serif;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

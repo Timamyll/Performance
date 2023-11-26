@@ -1,0 +1,89 @@
+.looking__page {
+    margin-top: 100px;
+}
+.container {
+}
+.looking__body {
+    border-radius: 50px;
+    background-color: #242424;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+.looking__box {
+}
+.looking__title {
+    color: #f9f9f9;
+    font-size: 40px;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 62px;
+}
+.looking__text {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    line-height: 28px;
+}
+.looking__logo {
+}
+.looking__imgs {
+}
+
+.hhru__page {
+    margin-top: 50px;
+}
+.hhru__body {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.hhru__logo {
+    width: 11%;
+}
+.hhru__title {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    line-height: 1.55;
+    color: #242424;
+}
+
+@media (max-width: 600px) {
+   
+    .hhru__title {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 482px) {
+    .looking__title {
+        font-size: 30px;
+    }
+    .looking__text {
+        font-size: 15px;
+    }
+    .hhru__title {
+        font-size: 25px;
+    }
+    .looking__body {
+        padding: 28px 45px;
+    }
+  
+}

@@ -1,0 +1,107 @@
+.footer__page {
+    background: #242424;
+    margin-top: 50px;
+}
+.container {
+}
+.footer__body {
+    padding-top: 50px;
+}
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.footer__img {
+    width: 65px;
+    margin-left: 12px; 
+}
+.footer__logo-text {
+        color: #fff;
+    font-size: 14px;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    padding-top: 15px;
+
+    /* background-position: center center; */
+    /* border-color: transparent; */
+    /* border-style: solid; */
+}
+.footer__sochial {
+    display: flex;
+    gap: 25px;
+}
+.footervk {
+    width: 40px;
+}
+.footer__youtoobe {
+       width: 40px;
+
+}
+.footer__hh {
+     width: 40px;
+
+
+}
+.footer__vcru {
+    width: 40px;
+
+
+}
+.footer__adress {
+    display: flex;
+    gap: 25px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+.footer__adres {
+        color: #ffffff;
+    font-size: 14px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.footer__sayt {
+        color: #ffffff;
+    font-size: 14px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.footer__policia {
+        color: #ffffff;
+    font-size: 14px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    padding-bottom: 15px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.footer__sogla {
+        color: #ffffff;
+    font-size: 14px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+hr {
+    background: #fafafa;
+    height: 2px;
+}

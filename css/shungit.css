@@ -1,0 +1,201 @@
+/* shungit.html */
+.shungit__title {
+    color: #000000;
+    font-size: 42px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.shungit__doptitle {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 25px;
+}
+.shungit__text {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+.shungit__title-text {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+.shungit__sps {
+    list-style-type: disc;
+}
+.sshungit__item {
+    list-style-type: disc;
+
+}
+.shungit__item {
+    list-style-type: disc;
+}
+
+/* media shungit */
+
+@media (max-width: 537px) {
+    .shungit__title {
+        font-size: 30px;
+    }
+    .shungit__text {
+        font-size: 14px;
+    }
+    .shungit__doptitle {
+        font-size: 14px;
+    }
+
+}
+
+/* sportbyro */
+
+.sportbyro__title {
+    color: #000000;
+    font-size: 42px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.sportbyro__link {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 15px;
+    list-style-type: disc;
+    max-width: 850px;
+
+}
+.sportbyro__doptitle {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+.sportbyro__item {
+    list-style-type: disc;
+}
+.sportbyro__pages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sporbyro__img {
+}
+.racdel {
+    background: #8080804f;
+    padding: 19px;
+    border: none;
+}
+
+/* media sportbyro */
+
+@media (max-width: 500px) {
+    .sportbyro__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .sportbyro__doptitle {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .sportbyro__link {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .sportbyro__pages {
+        
+    }
+    .sporbyro__img {
+        width: 100%;
+    }
+}
+
+.kukoshop {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.kukishin__imags {
+    width: 100%;
+}
+.kukishin__imagss {
+    width: 55%;
+}
+.kuko__video {
+    width: 70%;
+}
+
+@media (max-width: 500px) {
+    .kukishin__imagss {
+    width: 100%;
+    }
+    .kuko__video {
+        width: 100%;
+    }
+}
+
+.bavarius__box {
+    background: #000000;
+    padding-bottom: 50px;
+}
+.bavarius__title {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'GraphikTT',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+.bavarius-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.bavarius__imags {
+    margin: 0 auto;
+}

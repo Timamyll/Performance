@@ -1,0 +1,123 @@
+.robota__page {
+    background: #242424;
+    margin-top: 100px;
+    padding-bottom: 240px;
+}
+.container {
+}
+.robota__body {
+}
+.robota-header {
+}
+.robota__title {
+    font-family: Comfortaa;
+    font-weight: 600;
+    color: rgb(249, 249, 249);
+    font-size: 40px;
+    line-height: 1.23;
+    padding-top: 90px;
+     padding-bottom: 60px;
+}
+.robota__texts {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    font-weight: 400;
+    max-width: 560px;
+    color: #fff;
+   
+}
+.robota__cart {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.robota__carts {
+    max-width: 360px;
+    padding-bottom: 50px;padding-top: 108px;
+
+}
+.imgages {
+    background-image: url(../../images/robota/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+.imgages1 {
+    background-image: url(../../images/robota/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+.imgages2 {
+    background-image: url(../../images/robota/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+
+.robotacart__title {
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    line-height: 1.23;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.robotacart__text {
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgb(249, 249, 249);
+    font-family: GraphikTT;
+}
+.robotacart__texts {
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgb(249, 249, 249);
+     font-family: 'Comfortaa';
+     font-weight: 400;
+
+}
+.robota__button {
+    color: #f9f9f9;
+    background-color: #9001f5;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    font-family: Comfortaa;
+    font-weight: 600;
+    padding: 20px 85px; 
+    transition: all 0.3s ease-in-out;
+}
+.fours {
+    padding-bottom: 30px;
+}
+
+.robota__button:hover {
+    color: #9001f5;
+    background: #fff;
+}
+
+@media (max-width: 780px) {
+    .robota__carts {
+        padding-top: 31px;
+        padding-bottom: 160px;
+    }
+    .robota__button {
+        padding: 15px 60px;
+    }
+    .robota__title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    .robota__texts {
+        font-size: 18px;
+    }
+}

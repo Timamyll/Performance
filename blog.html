@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>БЛОГ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/b680021b04.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+  <link rel="shortcut icon" href="./images/footer/01.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page__header">
+    <div class="container">
+      <div class="menu__page">
+        <div class="menu__logo">
+          <a href="./index.html"><img src="./images/header'/logo.png" alt="logo" class="logo__img"></a>
+        </div>
+        <nav class="menu__item">
+          <ul class="nav__link">
+            <li class="nav__items"><a href="./aboutus.html" class="nav__links">О нас</a></li>
+            <li class="nav__items dropdown" data-value="service">
+              <a href="./case.html" class="nav__links">Услуги</a>
+            </li>
+            <li class="nav__items"><a href="./case.html" class="nav__links">Кейсы</a></li>
+            <li class="nav__items"><a href="./articles.html" class="nav__links">Статьи</a></li>
+            <li class="nav__items"><a href="./job.html" class="nav__links">Вакансии</a></li>
+            <li class="nav__items"><a href="./blog.html" class="nav__links">Блог</a></li>
+          </ul>
+        </nav>
+        <div class="menu__social">
+          <a href="https://vk.com/smm_performance10" class="social__vk">
+            <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#ffffff"></path></svg></a>
+          <a href="https://www.youtube.com/@agencyperformance" class="social__youtube">
+            <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm17.9-67.374c3.838.346 6 2.695 6.474 6.438.332 2.612.626 6.352.626 10.375 0 7.064-.626 11.148-.626 11.148-.588 3.728-2.39 5.752-6.18 6.18-4.235.48-13.76.7-17.992.7-4.38 0-13.237-.184-17.66-.552-3.8-.317-6.394-2.44-6.916-6.218-.38-2.752-.626-6.022-.626-11.222 0-5.788.209-8.238.7-10.853.699-3.732 2.48-5.54 6.548-5.96C36.516 32.221 40.55 32 49.577 32c4.413 0 13.927.228 18.322.626Zm-23.216 9.761v14.374L58.37 49.5l-13.686-7.114Z" fill="#ffffff"></path></svg></a>
+          <a href="https://petrozavodsk.hh.ru/employer/9015884" class="social__hh">
+            <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50ZM23 70.1231V29h7.4643v15.7597l1.0149-.9811c1.2041-1.1639 1.95-1.6902 3.2181-2.2703 1.8106-.8284 3.795-1.1243 5.7858-.863 3.3098.4347 5.8216 2.0471 6.983 4.4827 1.136 2.382 1.2227 3.5316 1.1735 15.5625l-.0384 9.3631h-7.3333l-.081-9.6905c-.088-10.5366-.1075-10.8169-.8403-12.0673-1.3585-2.318-5.4383-2.5267-7.753-.3966-.9416.8665-1.4075 1.7529-1.8279 3.477-.1796.7374-.2231 2.2062-.2892 9.7726l-.0777 8.9048-3.6994.0348L23 70.1231Zm29.3652-20.4326c-.0185-11.1997-.0057-20.4367.0286-20.5268.0478-.1256.917-.1637 3.7331-.1637h3.6707v7.7698c0 4.2735.027 7.7969.0599 7.8298.033.033.4829-.341.9999-.8312 2.4374-2.3104 5.2795-3.4007 8.3214-3.1923 4.1592.2848 7.1323 2.3968 8.222 5.8406.5531 1.7477.5984 2.7724.5988 13.5229L78 70.1231l-3.6994-.0347-3.6994-.0348-.0748-9.9524c-.0774-10.3036-.088-10.4966-.6382-11.5751-1.0822-2.1212-4.2138-2.7414-6.8562-1.3578-.974.5101-1.6357 1.1848-2.1511 2.1936-.9172 1.795-.9653 2.3555-1.0427 12.149l-.0681 8.6122-3.6856-.0348-3.6857-.0347-.0336-20.3631Z" fill="#ffffff"></path></svg></a>
+          <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src="./images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
+        </div>
+        <div class="menu__buttom">
+          <a class="menu__itembut">Оставить заявку</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="blog__page">
+    <div class="container">
+        <div class="blog__body">
+            <h1 class="blog__title"><span class="ones">Y</span>OU<span class="twos">T</span>UBE - БЛОГ</h1>
+            <h2 class="blog__text">Проводим видео-интервью и знакомим с полезными для бизнеса людьми.</h2>
+            <div class="blog__box">
+                <div class="blog__nomer">#1</div>
+                <div class="blog__boxs">
+                    <div class="blog__box-one">
+                        <h2 class="blog__box-title">ИЗУЧАЕМ ТУРИСТИЧЕСКИЙ БИЗНЕС</h2>
+                     <p class="blog__box-text">Как нравиться туристам и соединить рекламу с реальностью.
+                     Изучаем с маркетологом <span class="ones">К</span>ристиной <span class="twos">Б</span>арабановой и основателем глемпинга <span class="ones">Н</span>иколаем <span class="twos">М</span>укконен.</p>
+                     </div>
+                    <div class="blog__box-two">
+                    <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/pBXyWVGmjiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://www.youtube.com/embed/pBXyWVGmjiw" class="button__iframe">Посмотреть</a>
+
+                </div>
+            </div>
+            <div class="blog__box">
+                <div class="blog__nomer">#2</div>
+                <div class="blog__boxs">
+                    <div class="blog__box-one">
+                        <h2 class="blog__box-title">О ТАРГЕТЕ И ГОСПОДДЕРЖКЕ ЧЕРЕЗ СВОЙ ОПЫТ</h2>
+                     <p class="blog__box-text">Интервью с <span class="ones">Д</span>енисом <span class="twos">Д</span>овольновым: Как продвигать события и людей.</p>
+                     </div>
+                    <div class="blog__box-two">
+                    <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/5QsU6NXVi8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://www.youtube.com/embed/5QsU6NXVi8k" class="button__iframe">Посмотреть</a>
+                </div>
+            </div>
+            <div class="blog__box">
+                <div class="blog__nomer">#3</div>
+                <div class="blog__boxs">
+                    <div class="blog__box-one">
+                        <h2 class="blog__box-title">ГОВОРИМ О БИЗНЕСЕ ПРОСТЫМ ЯЗЫКОМ</h2>
+                     <p class="blog__box-text">Интервью с <span class="ones">Е</span>леной <span class="twos">Б</span>елонович, практическим бизнес-консультантом из Карелии о частых ошибках при открытии ИП.</p>
+                     </div>
+                    <div class="blog__box-two">
+                    <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/f9TDf55vKHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://www.youtube.com/embed/f9TDf55vKHA" class="button__iframe">Посмотреть</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <footer class="footer__page">
+    <div class="container">
+      <div class="footer__body">
+        <div class="footer__logo">
+          <img src="./images/footer/01.png" alt="" class="footer__img">
+          <div class="footer__logo-text">Performance</div>        
+        </div>
+        <div class="footer__sochial">
+          <a href=""><img src="./images/footer/02.svg" alt="" class="footervk"></a>
+          <a href=""><img src="./images/footer/03.png" alt="" class="footer__youtoobe"></a>
+          <a href=""><img src="./images/footer/04.png" alt="" class="footer__hh"></a>
+          <a href=""><img src="./images/footer/05.svg" alt="" class="footer__vcru"></a>
+        </div>
+        <div class="footer__adress">
+          <p class="footer__adres">г. Петрозаводск, ул. Речная, 45</p>
+          <p class="footer__sayt">agency.performance10@gmail.com</p>
+        </div>
+        <hr>
+        <div class="footer__policia">
+          <a href="" class="footer__policia">Политика конфиденциальности</a>
+          <a href="" class="footer__sogla">Пользовательское соглашение</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+
+    <div class="menu__overlay ">
+        <div class="menu__phone animate__animated">
+            <ul class="menu__items">
+                <div class="menu__pages header__body">
+                  <div class="menu__logo">
+                    <a href="./index.html"><img src="./images/header'/logo.png" alt="logo" class="logo__img"></a>
+                  </div>
+                  <nav class="menu__item">
+                    <ul class="nav__link">
+                      <li class="nav__items"><a href="./aboutus.html" class="nav__links">О нас</a></li>
+                       <li class="nav__items dropdown" data-value="service">
+                        <a hrer="#" class="nav__links">Услуги</a>
+                      </li>
+                      <li class="nav__items"><a href="./case.html" class="nav__links">Кейсы</a></li>
+                      <li class="nav__items"><a href="./articles.html" class="nav__links">Статьи</a></li>
+                      <li class="nav__items"><a href="./job.html" class="nav__links">Вакансии</a></li>
+                      <li class="nav__items"><a href="./blog.html" class="nav__links">Блог</a></li>
+                    </ul>
+                  </nav>
+                  <div class="menu__social">
+                    <a href="https://vk.com/smm_performance10" class="social__vk">
+                      <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#ffffff"></path></svg></a>
+                    <a href="https://www.youtube.com/@agencyperformance" class="social__youtube">
+                      <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm17.9-67.374c3.838.346 6 2.695 6.474 6.438.332 2.612.626 6.352.626 10.375 0 7.064-.626 11.148-.626 11.148-.588 3.728-2.39 5.752-6.18 6.18-4.235.48-13.76.7-17.992.7-4.38 0-13.237-.184-17.66-.552-3.8-.317-6.394-2.44-6.916-6.218-.38-2.752-.626-6.022-.626-11.222 0-5.788.209-8.238.7-10.853.699-3.732 2.48-5.54 6.548-5.96C36.516 32.221 40.55 32 49.577 32c4.413 0 13.927.228 18.322.626Zm-23.216 9.761v14.374L58.37 49.5l-13.686-7.114Z" fill="#ffffff"></path></svg></a>
+                    <a href="https://petrozavodsk.hh.ru/employer/9015884" class="social__hh">
+                      <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50ZM23 70.1231V29h7.4643v15.7597l1.0149-.9811c1.2041-1.1639 1.95-1.6902 3.2181-2.2703 1.8106-.8284 3.795-1.1243 5.7858-.863 3.3098.4347 5.8216 2.0471 6.983 4.4827 1.136 2.382 1.2227 3.5316 1.1735 15.5625l-.0384 9.3631h-7.3333l-.081-9.6905c-.088-10.5366-.1075-10.8169-.8403-12.0673-1.3585-2.318-5.4383-2.5267-7.753-.3966-.9416.8665-1.4075 1.7529-1.8279 3.477-.1796.7374-.2231 2.2062-.2892 9.7726l-.0777 8.9048-3.6994.0348L23 70.1231Zm29.3652-20.4326c-.0185-11.1997-.0057-20.4367.0286-20.5268.0478-.1256.917-.1637 3.7331-.1637h3.6707v7.7698c0 4.2735.027 7.7969.0599 7.8298.033.033.4829-.341.9999-.8312 2.4374-2.3104 5.2795-3.4007 8.3214-3.1923 4.1592.2848 7.1323 2.3968 8.222 5.8406.5531 1.7477.5984 2.7724.5988 13.5229L78 70.1231l-3.6994-.0347-3.6994-.0348-.0748-9.9524c-.0774-10.3036-.088-10.4966-.6382-11.5751-1.0822-2.1212-4.2138-2.7414-6.8562-1.3578-.974.5101-1.6357 1.1848-2.1511 2.1936-.9172 1.795-.9653 2.3555-1.0427 12.149l-.0681 8.6122-3.6856-.0348-3.6857-.0347-.0336-20.3631Z" fill="#ffffff"></path></svg></a>
+                    <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src="./images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
+                  </div>
+                  <div class="menu__buttom">
+                    <a class="menu__itembut">Оставить заявку</a>
+                  </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="jquery.js"></script>
+<!-- Подключение jQuery плагина Masked Input -->
+  <script src="./js/jquery.maskedinput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="./js/inputmask.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //Код jQuery, установливающий маску для ввода телефона элементу input
+    //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+    $(function(){
+    //2. Получить элемент, к которому необходимо добавить маску
+    $("#phone").mask("8(999) 999-9999");
+  });
+  </script>
+  <script>
+  $(document).ready(function(){   
+    $("#mail").inputmask("email")
+  });
+  </script>
+  <script src="js/smm-slider.js"></script>
+  <script src="js/scipts.js"></script>
+  <script src="./js/scripts.js"></script>
+  <script src="./js/nav.js"></script>
+</body>
+</html>

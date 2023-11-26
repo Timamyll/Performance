@@ -1,0 +1,108 @@
+.case__articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.case__articles-cart {
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px;
+}
+.case__articles-construction {
+    width: 360px;
+    height: 581px;
+    background-color: #fff;
+    border-radius: 30px;
+    /* padding: 0 20px 18px; */
+    /* height: 332px; */
+    display: flex;
+    flex-direction: column;
+    text-align: left    ;
+}
+.case__articles-cart:hover {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.10);
+
+}
+.construction__image {
+    /* max-width: 273px; */
+    padding-bottom: 18px;
+    width: 360px;
+    height: 285px;
+}
+.v {
+    height: 350px;
+}
+.construction__content {
+    padding: 0 20px 18px;
+    /* height: 332px; */
+    display: flex;
+    flex-direction: column;
+    text-align: left    ;
+}
+.construction__title {
+    font-family: 'Comfortaa',Arial,sans-serif;
+    font-weight: 600;
+    color: #242424;
+    line-height: 1.35;
+    font-size: 24px;
+}
+.construction__text {
+    margin-top: 8px;
+    color: rgba(0,0,0,.9);
+    font-size: 18px;
+    line-height: 1.55;
+}
+.construction__read {
+    font-family: 'Comfortaa',Arial,sans-serif;
+    color: #242424;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.slick-prev {
+    left: -46px;
+}
+
+.slick-next  {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(144, 1, 245);
+    margin-top: 0px;
+    border-radius: 100px;
+    /* background-color: #eee; */
+    -webkit-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    -moz-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    -o-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+
+}
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(144, 1, 245);
+    margin-top: 0px;
+    border-radius: 100px;
+    /* background-color: #eee; */
+    -webkit-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    -moz-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    -o-transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+    transition: background-color ease-in-out .2s,border-color ease-in-out .2s;
+}
+.slick-arrow:focus {
+     background-color: rgb(144, 1, 245);
+
+}
+.slick-next:focus {
+    background-color: rgb(144, 1, 245);
+}
+.slick-arrow:hover {
+     background-color: rgb(144, 1, 245);
+
+}
+.slick-next:hover {
+    background-color: rgb(144, 1, 245);
+}

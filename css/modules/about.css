@@ -1,0 +1,235 @@
+.about__page {
+}
+.container {
+}
+.about__body {
+    
+}
+.about__title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    /* background-color: #f9f9f9; */
+    color: #242424;
+    font-size: 40px;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.about__forms {
+    width: 50%;
+}
+.about__mailto {
+}
+.about__mail {
+    color: rgb(0, 0, 0);
+    font-family: GraphikTT, Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 15px;
+
+}
+.about__mails {
+        margin: 0;
+    font-size: 100%;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(144, 1, 245);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.about__nameto {
+}
+.about__name {
+    color: rgb(0, 0, 0);
+    font-family: GraphikTT, Arial,sans-serif;
+    font-size: 18px; 
+    font-weight: 500;
+    padding-left: 15px;
+}
+.about__names {
+        margin: 0;
+    font-size: 100%;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(144, 1, 245);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 10px;
+
+}
+.about__telto {
+}
+.about__tel {
+    color: rgb(0, 0, 0);
+    font-family: Arial,sans-serif, GraphikTT;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 500;
+
+
+}
+.about__tels {
+        margin: 0;
+    font-size: 100%;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(144, 1, 245);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 10px;
+
+}
+.about__terratto {
+}
+.about__terrat {
+    color: rgb(0, 0, 0);
+    font-family: GraphikTT, Arial,sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 500;
+
+
+}
+.about__terrats {
+        margin: 0;
+    font-size: 100%;
+    height: 110px;
+    padding-top: 17px;
+    padding-left: 26px;
+    /* height: 60px; */
+    /* padding: 50px 20px; */
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(144, 1, 245);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    /* height: 45px; */
+    margin-bottom: 10px;
+    resize: none;
+
+}
+.about__choice {
+    
+}
+.about__choises {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: GraphikTT, Arial,sans-serif;
+    padding-bottom: 10px;
+}
+.choise__title {
+    color: rgb(0, 0, 0);
+    font-family: GraphikTT, Arial,sans-serif;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.about__buttom {
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Comfortaa',Arial,sans-serif;
+    cursor: pointer;
+    background-color: #9001f5;
+    transition: 0.3s ease all;
+        padding: 0px 15px;
+    display: block;
+    width: 320px;
+    font-weight: 600;
+    height: 60px;
+    margin-top: 25px;
+}
+.chekbox span {
+    color: #9001f5;
+}
+@media (max-width: 815px) {
+    .about__mails,
+    .about__names,
+    .about__choises,
+    .about__tels,
+    .about__terrats {
+        width: 130%;
+    }
+
+    
+}
+
+@media (max-width: 440px) {
+    .about__mails,
+    .about__names,
+    .about__choises,
+    .about__tels,
+    .about__terrats {
+        width: 180%;
+    }
+    .about__title {
+        font-size: 33px;
+    }
+    .about__buttom {
+        width: 268px;
+    }
+    .comand__page {
+        height: 60vh;
+    }
+
+    
+}
