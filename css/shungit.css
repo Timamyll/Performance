@@ -199,3 +199,13 @@
 .bavarius__imags {
     margin: 0 auto;
 }
+
+.border__block {
+    border-bottom: 4px solid #9001f5;
+    padding-bottom: 10px;
+}
+
+.border__left-li {
+    border-left: 4px solid #9001f5;
+    padding-left: 10px;
+}

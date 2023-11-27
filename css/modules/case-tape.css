@@ -1,12 +1,16 @@
 .case__pages {
     background: #fff;
     /* padding-bottom: 1000px; */
+    margin-bottom: 30px;
 
 }
 .case__bodys {
     display: flex;
     flex-direction: column;
     padding-top: 65px;
+}
+.owl-dots {
+    margin-top: 30px;
 }
 
 .case__titless {

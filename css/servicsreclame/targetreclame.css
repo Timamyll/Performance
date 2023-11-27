@@ -262,7 +262,7 @@
     justify-content: center;
 }
 .owl-carousel .owl-item img {
-    width: 80%;
+    /* width: 80%; */
 }
 .owl-nav {
     display: none;

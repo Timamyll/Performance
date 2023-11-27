@@ -39,6 +39,7 @@
 .arcticle__case {
     display: flex;
     padding-top: 70px;
+    flex-wrap: wrap;
 }
 .article__case-img {
     padding-right: 30px;
@@ -57,7 +58,7 @@
     border-color: transparent;
     border-style: solid;
     line-height: 28px;
-    width: 987px;
+    max-width: 987px;
 }
 .article__case-title {
     color: #242424;
@@ -156,11 +157,15 @@
 .stat-web_three {
     padding-top: 52px;    
 }
- 
+@media (max-width: 650px) {
+    .article__case-img {
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 1550px) {
     .article__case-text {
-        width: 722px;
+        max-width: 722px;
     }
     .case__stat-complexity {
         margin-right: -103px;
