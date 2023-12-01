@@ -26,8 +26,8 @@
         <nav class="menu__item">
           <ul class="nav__link">
             <li class="nav__items"><a href="./aboutus.html" class="nav__links">О нас</a></li>
-            <li class="nav__items dropdown" data-value="service">
-              <a href="./case.html" class="nav__links">Услуги</a>
+             <li class="nav__items dropdown" data-value="service">
+              <a class="nav__links">Услуги</a>
             </li>
             <li class="nav__items"><a href="./case.html" class="nav__links">Кейсы</a></li>
             <li class="nav__items"><a href="./articles.html" class="nav__links">Статьи</a></li>
@@ -45,7 +45,7 @@
           <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src="./images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
         </div>
         <div class="menu__buttom">
-          <a class="menu__itembut">Оставить заявку</a>
+          <a href="#zav" class="menu__itembut">Оставить заявку</a>
         </div>
       </div>
     </div>
@@ -94,79 +94,87 @@
   </div>
   <section class="about__page">
     <div class="container">
-      <div class="about__body">
+      <div class="about__body" id="zav">
         <h2 class="about__title">НАПИШИТЕ НАМ</h2>
-        <form action="" class="about__forms">
-          <div class="about__nameto">
-            <p class="about__name">Фамилия Имя Отечества</p>
-            <input type="text" class="about__names" placeholder="Алексеев Роман Николаевич" required>
-          </div>
+        <form action="#" class="about__forms" method="post">
           <div class="about__mailto">
-            <p class="about__mail">Ваш e-mail</p>
-            <input id="mail" type="mail" class="about__mails" placeholder="maill@mail.ru">
+            <p class="about__mail">Электронная почта</p>
+            <input name="email" id="mail" type="mail" class="about__mails" placeholder="maill@mail.ru">
+          </div>
+          <div class="about__nameto">
+            <p class="about__name">Имя</p>
+            <input name="name" type="text" class="about__names" placeholder="Имя" required>
           </div>
           <div class="about__telto">
-            <p class="about__tel">Ваш телефон</p>
-            <input id="phone" type="text"  class="about__tels" placeholder="8 (999) 99 99" required>
+            <p class="about__tel">Телефон</p>
+            <input name="phone" id="phone" type="text"  class="about__tels" placeholder="8 (999) 999 99 99" required>
+          </div>
+          <div class="about__terratto">
+            <p class="about__terrat">Рассказать о проекте</p>
+            <!-- <input type="text" > -->
+            <input name="texts" rows="20" class="about__terrats" cols="80" id="TITLE"></i>
           </div>
           <div class="about__choice">
-            <h2 class="choise__title">Желаемая вакансия</h2>
+            <h2 class="choise__title">Тип услуги</h2>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb1" checked> <label for="rb1">SMM-менеджер</label>
+              <input type="radio" name="rb" id="rb1" checked> <label for="rb1">Таргетированная реклама</label>
             </div>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb2"> <label for="rb2">Менеджер маркет-плейсов</label>
+              <input type="radio" name="rb" id="rb2"> <label for="rb2">SMM</label>
             </div>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb3"> <label for="rb3">Менеджер по продажам</label>
+              <input type="radio" name="rb" id="rb3"> <label for="rb3">Контекстная реклама</label>
             </div>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb4"> <label for="rb4">Таргетолог</label>
+              <input type="radio" name="rb" id="rb4"> <label for="rb4">SEO</label>
             </div>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb5"> <label for="rb5">Маркетолог</label>
+              <input type="radio" name="rb" id="rb5"> <label for="rb5">Сайт под заказ</label>
             </div>
             <div class="about__choises">
-              <input type="checkbox" name="rb" id="rb6"> <label for="rb6">Директолог</label>
+              <input type="radio" name="rb" id="rb6"> <label for="rb6">Создание дизайна</label>
+            </div>
+            <div class="about__choises">
+              <input type="radio" name="rb" id="rb7"> <label for="rb7">Создание логотипа</label>
+            </div>
+            <div class="about__choises">
+              <input type="radio" name="rb" id="rb8"> <label for="rb8">Другое</label>
             </div>
             <div class="about__choises">
               <input type="checkbox" id="cb1"> <label  class="chekbox" for="cb1" required>Я согласен с <span>Политикой конфиденциальности</span></label>
             </div>
-            <p class="about__terrat">Самое важное о вас:</p>
-            <textarea class="about__terrats" name="Text1" cols="5" rows="5"></textarea>
-
-            <button class="about__buttom" id="input_form" type="submit">Отправить заявку &#10230;</button>
+            <button class="about__buttom" type="submit">Отправить заявку &#10230;</button>
           </div>
         </form>
       </div>
-    </div>
+    </div> 
   </section>
   <footer class="footer__page">
-    <div class="container">
-      <div class="footer__body">
-        <div class="footer__logo">
-          <img src="./images/footer/01.png" alt="" class="footer__img">
-          <div class="footer__logo-text">Performance</div>        
-        </div>
-        <div class="footer__sochial">
-          <a href=""><img src="./images/footer/02.svg" alt="" class="footervk"></a>
-          <a href=""><img src="./images/footer/03.png" alt="" class="footer__youtoobe"></a>
-          <a href=""><img src="./images/footer/04.png" alt="" class="footer__hh"></a>
-          <a href=""><img src="./images/footer/05.svg" alt="" class="footer__vcru"></a>
-        </div>
-        <div class="footer__adress">
-          <p class="footer__adres">г. Петрозаводск, ул. Речная, 45</p>
-          <p class="footer__sayt">agency.performance10@gmail.com</p>
-        </div>
-        <hr>
-        <div class="footer__policia">
-          <a href="" class="footer__policia">Политика конфиденциальности</a>
-          <a href="" class="footer__sogla">Пользовательское соглашение</a>
-        </div>
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__logo">
+            <img src="./images/footer/01.png" alt="" class="footer__img">
+            <div class="footer__logo-text">Performance</div>        
+          </div>
+          <div class="footer__sochial">
+            <a href="https://vk.com/smm_performance10"><img src="./images/footer/02.svg" alt="" class="footervk"></a>
+            <a href="https://petrozavodsk.hh.ru/employer/9015884"><img src="./images/footer/03.png" alt="" class="footer__youtoobe"></a>
+            <a href="https://vc.ru/u/1618980-agency-performance"><img src="./images/footer/04.png" alt="" class="footer__hh"></a>
+            <a href="https://www.youtube.com/@agencyperformance"><img src="./images/footer/05.svg" alt="" class="footer__vcru"></a>
+          </div>
+          <div class="footer__adress">
+            <p class="footer__adres">г. Петрозаводск, ул. Речная, 45</p>
+            <p class="footer__sayt">agency.performance10@gmail.com</p>
+          </div>
+          <hr>
+          <div class="footer__policia">
+            <a href="./politica.html" class="footer__policia">Политика конфиденциальности</a>
+            <a href="./polzov.html" class="footer__sogla">Пользовательское соглашение</a>
+          </div>
 
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer> 
   <div class="hamburger"><span></span><span></span><span></span></div>
 
     <div class="menu__overlay ">

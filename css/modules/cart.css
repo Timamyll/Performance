@@ -29,6 +29,9 @@
     width: 360px;
     height: 285px;
 }
+.flexs {
+    display: flex;
+}
 .v {
     height: 350px;
 }

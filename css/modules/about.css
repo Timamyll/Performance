@@ -202,24 +202,26 @@
     color: #9001f5;
 }
 @media (max-width: 815px) {
+    .mailse,
+    .namese,
+    .telese,
+    .terast {
+        width: 100%;
+    }
     .about__mails,
     .about__names,
-    .about__choises,
-    .about__tels,
+    .about__tels,   
     .about__terrats {
-        width: 130%;
+        width: 165%;
     }
-
-    
 }
 
 @media (max-width: 440px) {
-    .about__mails,
-    .about__names,
-    .about__choises,
-    .about__tels,
-    .about__terrats {
-        width: 180%;
+    .mailse,
+    .namese,
+    .telese,
+    .terast {
+        width: 100%;
     }
     .about__title {
         font-size: 33px;

@@ -36,6 +36,10 @@
 }
 .case__right {
 }
+
+#modal-forms {
+    width: 100%;
+}
 .case__button {
     color: #ffffff;
     font-size: 40px;
