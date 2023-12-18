@@ -10,7 +10,7 @@
 }
 
 .comand__body {
-    margin-top: 150px;
+    padding-top: 150px;
 }
 .comand__title {
     color: #f9f9f9;
@@ -65,7 +65,11 @@
     }
     .comand__button {margin-top: 38px;}
 }
-
+@media (max-width: 704px) {
+    .comand__page {
+        display: none;
+    }
+}
 @media (max-width: 448px) {
     .comand__title {
         font-size: 31px;

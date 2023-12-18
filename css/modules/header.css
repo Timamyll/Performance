@@ -25,6 +25,7 @@
 .nav__links {
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
 }
 .menu__social {
     display: flex;
@@ -112,6 +113,7 @@
     color: #00cdff;
 }
 
+
 /* ---------------------home menu-------------------------- */
 
 .hamburger {
@@ -166,15 +168,14 @@
     top: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #242424;
+    background-color: rgba(0, 0, 0, .6);
     z-index: 0;
-    transition: all 1s;
-}
+    transition: all 1s;}
 
 .menu__phone {
     width: 50%;
     height: 100vh;
-    background-color:#242424;
+    background-color:#9001f5;
     z-index: 1000;
     padding: 40px;
 }
@@ -187,8 +188,54 @@
     color: #fff;
 }
 
+    .menu__itembut {
+        border: 10px transparent;
+    }
+
 
 /* media */
+
+@media (max-width: 976px) {
+    /* .menu__overlay {
+        width: 60vw;
+    } */
+    .menu__phone {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu__itembut {
+        border: 2px solid #fff;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .nav__link {
+        text-align: center;
+    }
+}
+@media (max-width: 667px) {
+    .menu__overlay {
+        width: 100vw;
+    }
+    .menu__phone {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu__itembut {
+        border: 2px solid #fff;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .menu__social {
+        margin-top: 29px;
+    }
+}
 
 @media (max-width: 1000px) {
     .header__body {
@@ -224,23 +271,13 @@
     .menu__buttom {
         margin-top: 40px;
     }
-    .menu__social {
-        margin-top: 105px;
+    .logo__img {
+        width: 139px;
     }
-}
-
-@media (max-width: 630px) {
-    .menu__phone {
-        width: 63%;
-       
-}
+    .nav__links {
+        font-size: 20px;
+    }
     
-}
-
-@media (max-width: 503px) {
-    .menu__phone {
-        width: 100%;
-    }
 }
  
 @media (max-width: 335px) {
@@ -254,16 +291,11 @@
         width: 100%;
         height: 100%;
     }
-    .menu__phone {
-        width: 50%;
-        height: 100%;
-        padding: 0;
-    }
 
-    .menu__itembut {
+    /* .menu__itembut {
         padding: 8px 17px 8px 17px;
         font-size: 11px;
-    }
+    } */
     .menu__buttom {
         margin-top: 25px;
 

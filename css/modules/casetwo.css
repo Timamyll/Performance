@@ -182,20 +182,37 @@
 @media (max-width: 500px) {
     .casetwo__target {
         height: 150px;
-        border-radius: 55%;
-        
+        border-radius: 30px;
+        border-width: 2px;
+        background-position: center center;
+        border-color: #f9f9f9;
+        border-style: solid;  
     }
     .casetwo__smm {
         height: 150px;
+        border-radius: 30px;
+        border-width: 2px;
+        background-position: center center;
+        border-color: #f9f9f9;
+        border-style: solid; 
+
     }
     .casetwo__yandex {
         height: 150px;
-        border-radius: 55%;
+        border-radius: 30px;
+        border-width: 2px;
+        background-position: center center;
+        border-color: #f9f9f9;
+        border-style: solid; 
 
     }
     .casetwo__seo {
         height: 150px;
-        border-radius: 55%;
+        border-radius: 30px;
+        border-width: 2px;
+        background-position: center center;
+        border-color: #f9f9f9;
+        border-style: solid; 
 
     }
     .casetwo__left {
@@ -207,9 +224,6 @@
         font-size: 18px;
         /* border-radius: 55%; */
 
-    }
-    .casetwo__smm {
-        border-radius: 55%;
     }
     
 }

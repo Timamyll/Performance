@@ -21,7 +21,7 @@ class Nav {
           <a href="../services/seo.html" class="nav__linkss">SEO</a>
           <a href="../services/create.html" class="nav__linkss">Создание сайтов на заказ</a>
           <a href="../services/logo.html" class="nav__linkss">Дизайн или логотип на заказ</a>
-          <a href="../case.html" class="nav__linkss">Бесплатный Аудит</a>
+          <a href=".././index.html#prices" class="nav__linkss">Бесплатный Аудит</a>
         `;
         dropdownMenu.className = `drop_menu_${link.dataset.value}`;
         link.style = "position: relative;";
@@ -44,6 +44,9 @@ class Nav {
       const link = this.links[i];
       if (link.classList.contains("dropdown")) {
         link.addEventListener("mouseover", () => {
+          this.showMenu(`${link.dataset.value}`);
+        });
+        link.addEventListener("click", () => {
           this.showMenu(`${link.dataset.value}`);
         });
 

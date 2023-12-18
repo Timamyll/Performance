@@ -1,8 +1,7 @@
-User-agent: *
-Disallow: 
-Host: ю
-Disallow: .ю
-Sitemap: ю
+User-agent: https://agency-performance.ru/
+Disallow: https://agency-performance.ru/
+Host: https://agency-performance.ru/
+Sitemap: https://agency-performance.ru/
 
 
 #DISALLOW FOR MAIN SITE DOWNLOADERS SECTION

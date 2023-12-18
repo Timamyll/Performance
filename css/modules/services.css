@@ -14,6 +14,14 @@
 .services__body {
     height: 716px;
     padding-top: 150px;
+   
+}
+.services_body {
+     display: flex;
+    flex-direction: column;
+    transition: all .4s;
+    height: 0;
+    overflow: hidden;
 }
 .services__title {
     color: #f9f9f9;

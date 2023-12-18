@@ -63,9 +63,9 @@
   <link rel="stylesheet" href=".././css/style.css">
 </head>
 <body>
-  <header class="page__header">
-    <div class="container">
-      <div class="menu__page">
+      <header class="page__header">
+      <div class="container">
+        <div class="menu__page">
         <div class="menu__logo">
           <a href=".././index.html"><img src=".././images/header'/logo.png" alt="logo" class="logo__img"></a>
         </div>
@@ -73,7 +73,7 @@
           <ul class="nav__link">
             <li class="nav__items"><a href=".././aboutus.html" class="nav__links">О нас</a></li>
              <li class="nav__items dropdown" data-value="service">
-              <a href=".././case.html" class="nav__links">Услуги</a>
+              <a class="nav__links">Услуги</a>
             </li>
             <li class="nav__items"><a href=".././case.html" class="nav__links">Кейсы</a></li>
             <li class="nav__items"><a href=".././articles.html" class="nav__links">Статьи</a></li>
@@ -88,14 +88,14 @@
             <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm17.9-67.374c3.838.346 6 2.695 6.474 6.438.332 2.612.626 6.352.626 10.375 0 7.064-.626 11.148-.626 11.148-.588 3.728-2.39 5.752-6.18 6.18-4.235.48-13.76.7-17.992.7-4.38 0-13.237-.184-17.66-.552-3.8-.317-6.394-2.44-6.916-6.218-.38-2.752-.626-6.022-.626-11.222 0-5.788.209-8.238.7-10.853.699-3.732 2.48-5.54 6.548-5.96C36.516 32.221 40.55 32 49.577 32c4.413 0 13.927.228 18.322.626Zm-23.216 9.761v14.374L58.37 49.5l-13.686-7.114Z" fill="#ffffff"></path></svg></a>
           <a href="https://petrozavodsk.hh.ru/employer/9015884" class="social__hh">
             <svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50ZM23 70.1231V29h7.4643v15.7597l1.0149-.9811c1.2041-1.1639 1.95-1.6902 3.2181-2.2703 1.8106-.8284 3.795-1.1243 5.7858-.863 3.3098.4347 5.8216 2.0471 6.983 4.4827 1.136 2.382 1.2227 3.5316 1.1735 15.5625l-.0384 9.3631h-7.3333l-.081-9.6905c-.088-10.5366-.1075-10.8169-.8403-12.0673-1.3585-2.318-5.4383-2.5267-7.753-.3966-.9416.8665-1.4075 1.7529-1.8279 3.477-.1796.7374-.2231 2.2062-.2892 9.7726l-.0777 8.9048-3.6994.0348L23 70.1231Zm29.3652-20.4326c-.0185-11.1997-.0057-20.4367.0286-20.5268.0478-.1256.917-.1637 3.7331-.1637h3.6707v7.7698c0 4.2735.027 7.7969.0599 7.8298.033.033.4829-.341.9999-.8312 2.4374-2.3104 5.2795-3.4007 8.3214-3.1923 4.1592.2848 7.1323 2.3968 8.222 5.8406.5531 1.7477.5984 2.7724.5988 13.5229L78 70.1231l-3.6994-.0347-3.6994-.0348-.0748-9.9524c-.0774-10.3036-.088-10.4966-.6382-11.5751-1.0822-2.1212-4.2138-2.7414-6.8562-1.3578-.974.5101-1.6357 1.1848-2.1511 2.1936-.9172 1.795-.9653 2.3555-1.0427 12.149l-.0681 8.6122-3.6856-.0348-3.6857-.0347-.0336-20.3631Z" fill="#ffffff"></path></svg></a>
-          <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src=".././images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
+          <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src="../images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
         </div>
         <div class="menu__buttom">
-          <a class="menu__itembut">Оставить заявку</a>
+          <a href="#zav" class="menu__itembut">Оставить заявку</a>
         </div>
       </div>
-    </div>
-  </header>
+      </div>
+    </header>
 <section class="page__targetreclame">
     <div class="container">
         <div class="targetreclame__body">
@@ -133,7 +133,7 @@
       </div>
     </div>
   </section>
-  <section class="about__page">
+  <section class="about__page" id="zav">
     <div class="container">
       <div class="about__body">
         <h2 class="about__title">НАПИШИТЕ НАМ</h2>
@@ -221,8 +221,7 @@
         
     </div>
   </section>
-
-<footer class="footer__page">
+    <footer class="footer__page">
       <div class="container">
         <div class="footer__body">
           <div class="footer__logo">
@@ -230,10 +229,10 @@
             <div class="footer__logo-text">Performance</div>        
           </div>
           <div class="footer__sochial">
-            <a href=""><img src=".././images/footer/02.svg" alt="" class="footervk"></a>
-            <a href=""><img src=".././images/footer/03.png" alt="" class="footer__youtoobe"></a>
-            <a href=""><img src=".././images/footer/04.png" alt="" class="footer__hh"></a>
-            <a href=""><img src=".././images/footer/05.svg" alt="" class="footer__vcru"></a>
+            <a href="https://vk.com/smm_performance10"><img src=".././images/footer/02.svg" alt="" class="footervk"></a>
+            <a href="https://petrozavodsk.hh.ru/employer/9015884"><img src=".././images/footer/03.png" alt="" class="footer__youtoobe"></a>
+            <a href="https://vc.ru/u/1618980-agency-performance"><img src=".././images/footer/04.png" alt="" class="footer__hh"></a>
+            <a href="https://www.youtube.com/@agencyperformance"><img src=".././images/footer/05.svg" alt="" class="footer__vcru"></a>
           </div>
           <div class="footer__adress">
             <p class="footer__adres">г. Петрозаводск, ул. Речная, 45</p>
@@ -241,8 +240,8 @@
           </div>
           <hr>
           <div class="footer__policia">
-            <a href="" class="footer__policia">Политика конфиденциальности</a>
-            <a href="" class="footer__sogla">Пользовательское соглашение</a>
+            <a href=".././politica.html" class="footer__policia">Политика конфиденциальности</a>
+            <a href=".././polzov.html" class="footer__sogla">Пользовательское соглашение</a>
           </div>
 
         </div>
@@ -261,7 +260,16 @@
                     <ul class="nav__link">
                       <li class="nav__items"><a href=".././aboutus.html" class="nav__links">О нас</a></li>
                        <li class="nav__items dropdown" data-value="service">
-                        <a hrer="#" class="nav__links">Услуги</a>
+                        <a hrer="#" class="nav__links services">Услуги</a>
+                        <div class="nav__links services_body">
+                          <a href=".././services/target.html" class="nav__linkss">Таргетированная реклама</a>
+                          <a href=".././services/smm.html" class="nav__linkss">SММ</a>
+                          <a href=".././services/reclamachen.html" class="nav__linkss">Контекстная реклама</a>
+                          <a href=".././services/seo.html" class="nav__linkss">SEO</a>
+                          <a href=".././services/create.html" class="nav__linkss">Создание сайтов на заказ</a>
+                          <a href=".././services/logo.html" class="nav__linkss">Дизайн или логотип на заказ</a>
+                          <a href=".././index.html#prices" class="nav__linkss">Бесплатный Аудит</a>
+                        </div>
                       </li>
                       <li class="nav__items"><a href=".././case.html" class="nav__links">Кейсы</a></li>
                       <li class="nav__items"><a href=".././articles.html" class="nav__links">Статьи</a></li>
@@ -279,7 +287,7 @@
                     <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src=".././images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
                   </div>
                   <div class="menu__buttom">
-                    <a class="menu__itembut">Оставить заявку</a>
+                    <a href="#zav" class="menu__itembut">Оставить заявку</a>
                   </div>
                 </div>
             </ul>

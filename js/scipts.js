@@ -3,10 +3,10 @@ $(".slider__box").slick({
   infinite: true,
   speed: 300,
   slidesToShow: 1,
-  // adaptiveHeight: true,
+  adaptiveHeight: true,
   slidesToScroll: 1,
-  // autoplay: true,
-  autoplaySpeed: 1000,
+  autoplay: true,
+  autoplaySpeed: 3000,
   arrows: false,
 });
 

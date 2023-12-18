@@ -98,6 +98,13 @@
           <h1 class="case__title">РЕКЛАМА ДЛЯ БИЗНЕСА</h1>
           <h2 class="case__text">В СОЦИАЛЬНЫХ СЕТЯХ <br>И ИНТЕРНЕТЕ</h2>
         </div>
+        <div class="adaptiv__page">
+          <div class="adaptiv__body">
+            <div class="adapro">
+              <a href="./aboutus.html" class="apapriv__click">Подробнее о команде →</a>
+            </div>
+          </div>
+        </div>
         <div class="case__right">
           <button href="" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" class="case__button btn btn-primary">ПОЛУЧИТЬ КП</button>
 
@@ -127,6 +134,9 @@
                       <!-- <input type="text" > -->
                       <input name="texts" rows="20" class="about__terrats terast" cols="80" id="TITLE"></i>
                     </div>
+                    <div class="about__choises">
+                      <input type="checkbox" id="cb1" required><label  class="chekbox" for="cb1">Я согласен с <span>Политикой конфиденциальности</span></label>
+                      </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
                       <button type="submit" class="btn btn-primary">Отправить заявку &#10230;</button>
@@ -162,7 +172,7 @@
       </div>
     </div>
   </section>
-  <section class="comand__page">]
+  <section class="comand__page">
     <div class="container">
       <div class="comand__body">
         <h2 class="comand__title">МЫ — РЕКЛАМНОЕ АГЕНТСТВО</h2>
@@ -220,6 +230,44 @@
             <h3 class="slider__box-title">Поднялись продажи на 620 000 руб.</h3>
             <p class="slider__name">Екатерина</p>
             <div class="slider__names">Менеджер Moon</div>
+          </div>
+          <div class="slider__one">
+            <img src="./images/slider/09.png" alt="" class="slider__imgs">
+            <h3 class="slider__box-title">Работаю с агентством первый месяц. <br>
+              Большая часть общения - со специалистом Екатериной. Екатерина большой профессионал и при этом очень приятный в общении человек. Всегда с большим энтузиазмом подходит к решению вопросов, которые возникают в работе. <br>
+              Продолжаем работу)</h3>
+            <p class="slider__name">Николай Дундуков</p>
+            <div class="slider__names">Dundukov Club</div>
+          </div>
+          <div class="slider__one">
+            <img src="./images/slider/10.png" alt="" class="slider__imgs">
+            <h3 class="slider__box-title">Как и многие начинающие ремесленники я старался делать все сам. <br>
+                Но результаты были очень скромные, а иногда их не было совсем. <br>
+                Все устраивает! Лучше моих слов, только цифры. Стоимость заявки упала почти в 2 раза. <br>
+                Продолжаю работать</h3>
+            <p class="slider__name">Юрий Островский</p>
+            <div class="slider__names">Nebukva - мастерская по изготовлению индивидуальных подарков с кастомизированным дизайном</div>
+          </div>
+          <div class="slider__one">
+            <img src="./images/slider/11.png" style="width: 165px; height: 214px;" alt="" class="slider__imgs">
+            <h3 class="slider__box-title">Был запущен успешный, полностью себя оправдавший проект. <br>
+            Сейчас уже запущен второй проект, продолжаем развивать сотрудничество.</h3>
+            <p class="slider__name">Максим Василюк</p>
+          </div>
+          <div class="slider__one">
+            <img src="./images/slider/12.png" alt="" class="slider__imgs">
+            <h3 class="slider__box-title">Благодарю за профессиональный подход к работе таргетолога Светлану! <br>
+              Мне было комфортно общаться, работу свою выполнила, отчеты составила, результаты есть!</h3>
+            <p class="slider__name">Евгения Дубровская</p>
+            <div class="slider__names">Салон красоты DuBROWskaya</div>
+          </div>
+          <div class="slider__one">
+            <img src="./images/slider/13.png" style="height: 208px;" class="slider__imgs">
+            <h3 class="slider__box-title">Очень понравилось работать с дизайнером Екатериной. <br>
+            Екатерина очень приятная девушка, сделала качественную обработку фотографий, и своевременно все отправила. <br>
+              Очень рекомендую как специалиста!</h3>
+            <p class="slider__name">Лена Шумбасова/p>
+            <!-- <div class="slider__names">Салон красоты DuBROWskaya</div> -->
           </div>
         </div>
         <div class="slider__icon">
@@ -1164,7 +1212,7 @@
       </div>
     </div>
   </section>
-  <section class="robota__page">
+  <section class="robota__page" id="prices">
     <div class="container">
       <div class="robota__body">
         <div class="robota-header">
@@ -1307,7 +1355,16 @@
                     <ul class="nav__link">
                       <li class="nav__items"><a href="./aboutus.html" class="nav__links">О нас</a></li>
                        <li class="nav__items dropdown" data-value="service">
-                        <a hrer="#" class="nav__links">Услуги</a>
+                        <a hrer="#" class="nav__links services">Услуги</a>
+                        <div class="nav__links services_body">
+                          <a href=".././services/target.html" class="nav__linkss">Таргетированная реклама</a>
+                          <a href="../services/smm.html" class="nav__linkss">SММ</a>
+                          <a href="../services/reclamachen.html" class="nav__linkss">Контекстная реклама</a>
+                          <a href="../services/seo.html" class="nav__linkss">SEO</a>
+                          <a href="../services/create.html" class="nav__linkss">Создание сайтов на заказ</a>
+                          <a href="../services/logo.html" class="nav__linkss">Дизайн или логотип на заказ</a>
+                          <a href=".././index.html#prices" class="nav__linkss">Бесплатный Аудит</a>
+                        </div>
                       </li>
                       <li class="nav__items"><a href="./case.html" class="nav__links">Кейсы</a></li>
                       <li class="nav__items"><a href="./articles.html" class="nav__links">Статьи</a></li>
@@ -1325,7 +1382,7 @@
                     <a href="https://vc.ru/u/1618980-agency-performance" class="social__vkru"><img src="./images/header'/Vcru-logo-round.png" alt="Vcru-logo-round" class="social"></a>
                   </div>
                   <div class="menu__buttom">
-                    <a id="#zav" class="menu__itembut">Оставить заявку</a>
+                    <a href="#zav" class="menu__itembut">Оставить заявку</a>
                   </div>
                 </div>
             </ul>
