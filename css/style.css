@@ -19,6 +19,8 @@
 @import url(./servicsreclame/targetreclame.css);
 @import url(./shungit.css);
 @import url(../services/creates/creates.css);
+@import url(../services/price/price.css);
+
 
 
 
@@ -75,4 +77,6 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+.owl-carousel {
+    z-index: 0;
+}

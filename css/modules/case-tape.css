@@ -88,6 +88,11 @@
 .nav {
     --bs-nav-link-hover-color: 0; 
 }
+@media (max-width: 481px) {
+    .case__boxs {
+        display: none;
+    }
+}
 
 @media (max-width: 600px) {
     .nav-tabs {
@@ -95,6 +100,9 @@
     }
     .nav-tabs .nav-link {
         font-size: 15px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        display: none;
     }
     
 }

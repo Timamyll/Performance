@@ -120,7 +120,7 @@
         font-size: 15px;
     }
     .slick-dots li button:before {
-        margin-top: -125px;
+        /* margin-top: -125px; */
     }
     .slick-dotted.slick-slider {
         margin-bottom: 10px;
@@ -128,6 +128,12 @@
     .slider__icon {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 21px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slick-dots li {
+        margin: 0 ;
     }
 }
 
